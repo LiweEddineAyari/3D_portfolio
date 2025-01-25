@@ -1,0 +1,55 @@
+/* Hero.css */
+.btn-violet-gradient {
+    color: #804dee;
+    color: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+    color: -webkit-linear-gradient(
+      -90deg,
+      #804dee 0%,
+      rgba(60, 51, 80, 0) 100%
+    );
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 64px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  .btn-green-pink-gradient {
+    background: #00cea8;
+    background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+    background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Optional: Hover Effects */
+  .btn-violet-gradient:hover,
+  .btn-green-pink-gradient:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
+  /* Responsive styles */
+@media screen and (max-width: 768px) {
+  .btn-violet-gradient,
+  .btn-green-pink-gradient {
+    font-size: 18px;
+    padding: 8px 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .btn-violet-gradient,
+  .btn-green-pink-gradient {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}

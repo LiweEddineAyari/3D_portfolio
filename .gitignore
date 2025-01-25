@@ -1,0 +1,8 @@
+/node_modules
+/public
+/src/assets
+package-lock.json
+package.json
+postcss.config.cjs
+postcss.config.js
+yarn.lock
